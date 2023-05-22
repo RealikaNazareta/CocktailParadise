@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cocktail Paradise</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<header class="header">
+
+	<a href="#" class="logo">
+		<img src="images/logo.jpg" alt="">
+	</a>
+
+	<nav class="navbar">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#menu">Menu</a>
+		<a href="#contact">Contact</a>
+		<a href="#blogs">Blogs</a>
+	</nav>
+
+	<div class="icons">
+		<i class='bx bxs-cart' id="cart-icon"></i>
+		<div class="fas fa-bars" id="menu-btn"></div>
+		<div class="cart">
+			<h2 class="cart-title">Your Cart</h2>
+
+			<div class="cart-content">
+				
+			</div>
+
+			<div class="total">
+				<div class="total-title">Total</div>
+				<div class="total-price">₱ 0</div>
+			</div>
+
+			<button type="button" class="btn-buy">Buy Now</button>
+
+			<i class='bx bx-x' id="close-cart" ></i>
+		</div>
+	</div>
+</header>
+
+<section class="home" id="home">
+	<div class="content">
+		<h3>Tease your tongue with a toast of fun!</h3>
+	</div>
+	
+</section>
+
+
+<section class="about" id="about">
+
+	<h1 class="heading"> <span>about</span> us</h1>
+
+	<div class="row">
+		<div class="image">
+			<img src="images/about.jpg" alt="">
+		</div>
+
+		<div class="content">
+			<h3>What makes our Cocktail special?</h3>
+			<p>Step into our little slice of paradise and let us transport you to a tropical oasis. Our cocktail creations are inspired by the lush landscapes, crystal-clear waters, and vibrant culture of paradise. Sip on a fruity concoction that's bursting with flavor and enjoy the cool ocean breeze, even if you're miles away from the beach. Our mixologists are masters at blending exotic ingredients to create drinks that taste like a vacation in a glass. So sit back, relax, and let us take your taste buds on a journey to paradise!</p>
+		</div>
+	</div>
+</section>
+
+
+<section class="menu" id="menu">
+
+	<h1 class="heading"> our <span>menu</span></h1>
+
+	<div class="box-container">
+
+		<div class="box">
+			<img src="images/image1.jpg" alt="" class="product-img">
+			<h3 class="product-title">Island Sunrise</h3>
+			<div class="price">₱ 200.00 </div>
+			<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+			<img src="images/image2.jpg" alt="" class="product-img">
+			<h3 class="product-title">Love Potion</h3>
+			<div class="price">₱ 200.00</div>
+			<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+			<img src="images/image3.jpg" alt="" class="product-img">
+			<h3 class="product-title">Pretty in Pink</h3>
+			<div class="price">₱ 150.00</div>
+			<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+			<img src="images/image4.jpg" alt=""class="product-img">
+			<h3 class="product-title">Lemon Drop</h3>
+			<div class="price">₱ 150.00</div>
+			<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+			<img src="images/image5.jpg" alt="" class="product-img">
+			<h3 class="product-title">Beachy Breeze</h3>
+			<div class="price">₱ 200.00 </div>
+			<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+			<img src="images/image6.jpg" alt="" class="product-img">
+			<h3 class="product-title">Cotton Candy Club</h3>
+			<div class="price">₱ 250.00</div>
+			<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+			<img src="images/image7.jpg" alt="" class="product-img">
+			<h3 class="product-title">Drunk in Love</h3>
+			<div class="price">₱ 150.00</div>
+			<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+			<img src="images/image8.jpg" alt="" class="product-img">
+			<h3 class="product-title">Pink Promise</h3>
+			<div class="price">₱ 150.00 </div>
+			<a href="#" class="btn">add to cart</a>
+		</div>
+	</div>
+</section>
+
+<section class="contact" id="contact">
+	<h1 class="heading"> Contact <span>Us</span></h1>
+	<div class="row">
+		<div class="image">
+			<img src="images/contact.png" alt="">
+		</div>
+
+		<form action="">
+			<h2>Get in Touch</h2>
+
+			<div class="inputBox">
+				<span class="fas fa-user"></span>
+				<input type="text" placeholder="name">
+			</div>
+
+			<div class="inputBox">
+				<span class="fas fa-envelope"></span>
+				<input type="email" placeholder="email">
+			</div>
+
+			<div class="inputBox">
+				<span class="fas fa-phone"></span>
+				<input type="number" placeholder="phone">
+			</div>
+
+			<input type="submit" value="send message" class="btn">
+		</form>
+	</div>
+</section>
+
+<section class="blogs" id="blogs">
+	<h1 class="heading"> Our <span>Blogs</span></h1>
+	<h2>Tutorial on How to make a Cocktail</h2>
+	<div class="container">
+		<div class="main-video-container">
+			<video src="images/Video1.mp4" loop controls class="main-video"></video>
+			<p class="main-vid-title">ISLAND SUNRISE</p>
+		</div>
+
+		<div class="video-list-container">
+
+			<div class="list">
+				<video src="images/Video1.mp4" class="list-video"></video>
+				<p class="list-title">ISLAND SUNRISE</p>
+			</div>
+
+			<div class="list">
+				<video src="images/Video2.mp4" class="list-video"></video>
+				<p class="list-title">LOVE POTION</p>
+			</div>
+
+			<div class="list">
+				<video src="images/Video3.mp4" class="list-video"></video>
+				<p class="list-title">PRETTY IN PINK</p>
+			</div>
+
+			<div class="list">
+				<video src="images/Video4.mp4" class="list-video"></video>
+				<p class="list-title">LEMON DROP</p>
+			</div>
+
+			<div class="list">
+				<video src="images/Video5.mp4" class="list-video"></video>
+				<p class="list-title">BEACHY BREEZE</p>
+			</div>
+
+			<div class="list">
+				<video src="images/Video6.mp4" class="list-video"></video>
+				<p class="list-title">COTTON CANDY CLUB</p>
+			</div>
+
+			<div class="list">
+				<video src="images/Video7.mp4" class="list-video"></video>
+				<p class="list-title">DRUNK IN LOVE</p>
+			</div>
+
+			<div class="list">
+				<video src="images/Video8.mp4" class="list-video"></video>
+				<p class="list-title">PINKY PROMISE</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="footer">
+	<div class="share">
+		<a href="https://www.facebook.com/profile.php?id=100092705016115" target="_blank" rel="noopener" class="fab fa-facebook-f"></a>
+		<a href="https://www.instagram.com/c_paradise123" target="_blank" rel="noopener" class="fab fa-instagram"></a>
+		<a href="https://twitter.com/Cocktailprdise" target="_blank" rel="noopener" class="fab fa-twitter"></a>
+		<a href="https://www.youtube.com/@CocktailParadise" target="_blank" rel="noopener" class="fab fa-youtube"></a>
+	</div>
+
+	<div class="credit">Copyright © 2023 <span>COCKTAIL PARADISE</span> | All Rights Reserved.</div>
+</section>
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
